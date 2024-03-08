@@ -24,6 +24,12 @@
     "prettier/prettier": "error",
     "import/prefer-default-export": "off",
     "react/react-in-jsx-scope": "off",
+    "react/jsx-no-target-blank": [
+      "error",
+      {
+        "allowReferrer": true
+      }
+    ],
     "import/order": [
       "error",
       {
@@ -34,5 +40,5 @@
     ],
     "@typescript-eslint/array-type": ["error", { "default": "array" }]
   },
-  "ignorePatterns": ["vite.config.ts"]
+  "ignorePatterns": ["vite.config.ts", "tailwind.config.js", "postcss.config.js"]
 }

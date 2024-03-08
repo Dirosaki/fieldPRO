@@ -8,5 +8,13 @@
   "arrowParens": "always",
   "endOfLine": "lf",
   "bracketSameLine": false,
-  "bracketSpacing": true
+  "bracketSpacing": true,
+  "overrides": [
+    {
+      "files": ["*.json", ".eslint*"],
+      "options": {
+        "trailingComma": "none"
+      }
+    }
+  ]
 }
