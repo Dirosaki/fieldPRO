@@ -1,30 +1,45 @@
-# React + TypeScript + Vite
+# Desafio Front-End FieldPRO
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Screenshots
 
-Currently, two official plugins are available:
+![Screenshot](https://i.imgur.com/LaFt2CY.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Demonstração
 
-## Expanding the ESLint configuration
+Visualize a aplicação:
+[field-pro.vercel.app/](field-pro.vercel.app/)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Rodando localmente
 
-- Configure the top-level `parserOptions` property like this:
+Clone o projeto
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+```bash
+  git clone https://github.com/Dirosaki/fieldPRO.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Entre no diretório do projeto
+
+```bash
+  cd fieldPRO
+```
+
+Instale as dependências
+
+```bash
+  pnpm install
+```
+
+Inicie o servidor
+
+```bash
+  pnpm dev
+```
+
+### Tecnologias utilizadas
+
+**Princípais:** ReactJS, Typescript, ViteJS, Echarts, TailwindCSS, React Query e Axios.
+**Outras:** Eslint, Prettier, Husky, Lint-Staged e Lucide.
+
+### Referências
+
+- [Gemini](https://gemini.google.com/) - Utilizei o gemini para entender os dados da API e a colocar um gradiente nos gráficos.
