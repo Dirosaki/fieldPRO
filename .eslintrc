@@ -24,6 +24,7 @@
     "prettier/prettier": "error",
     "import/prefer-default-export": "off",
     "react/react-in-jsx-scope": "off",
+    "react/require-default-props": "off",
     "react/jsx-no-target-blank": [
       "error",
       {
@@ -38,6 +39,7 @@
         "newlines-between": "always"
       }
     ],
+    "@typescript-eslint/no-unused-expressions": ["error", { "allowTernary": true }],
     "@typescript-eslint/array-type": ["error", { "default": "array" }]
   },
   "ignorePatterns": ["vite.config.ts", "tailwind.config.js", "postcss.config.js"]
